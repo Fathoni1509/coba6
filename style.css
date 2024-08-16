@@ -773,6 +773,7 @@ footer li{
 
     .home,
     .story,
+    .info,
     .gifts{
         display: flex;
         align-items: center;
