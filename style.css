@@ -64,7 +64,9 @@ body {
     color: #a5eca5;
 }
 
-
+.mynavbar{
+    background-color: rgba(252,248,243,0) !important;
+}
 
 
 
@@ -80,6 +82,7 @@ body {
 
 .info{
     background-color: #3e8d73;
+    margin-top: -1rem;
     color: white;
     padding-top: 6rem;
     padding-bottom: 8rem;
@@ -99,7 +102,7 @@ body {
 }
 
 .info .card{
-    background-color: rgba(255,255,255,0.4) !important;
+    background-color: rgba(255,255,255,0.3) !important;
     color: white !important;
     border: 1px solid #062c32;
 }
@@ -680,7 +683,7 @@ footer li{
 /* hp 390px */
 @media (max-width: 720px){
     html{
-        font-size: 55%;
+        font-size: 58%;
     }
 
 
@@ -716,38 +719,7 @@ footer li{
        margin: 3px;
     }
 
-    .mynavbar{
-        height: 4.7rem;
-    }
 
-    .home {
-        margin-top: -4.9rem;
-        padding-bottom: 4rem;
-        height: 102vh;
-    }
-
-    .home .kepala{
-        max-width: 75%;
-        padding-top: 2rem;
-    }
-
-    .home .couple{
-        margin-top: 6rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
-
-    .home .couple p{
-        font-size: 1rem;
-    }
-
-    .home .cewek{
-        margin-top: 2rem;
-    }
-
-    .home .ayat{
-        max-width: 80%;
-    }
 
     .info,
     .resepsi{
@@ -755,12 +727,12 @@ footer li{
     }
 
     .info .atas2{
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 
     .info .kot1,
     .info .kot2{
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .info .atas{
