@@ -353,22 +353,7 @@
       });
 
       //akad
-      document.getElementById('akadLink').addEventListener('click', function(event) {
-          event.preventDefault(); // Mencegah halaman melakukan reload
-
-          // Menggulung halaman ke section dengan ID 'home'
-          document.getElementById('akad').scrollIntoView({
-              behavior: 'smooth'
-          });
-
-          var homeElement = document.getElementById('akad');
-          homeElement.classList.add('animateA');
-
-          // Menghapus kelas animate setelah animasi selesai (opsional)
-          setTimeout(function() {
-              homeElement.classList.remove('animateA');
-          }, 10000); // Durasi harus sama dengan durasi animasi di CSS
-      });
+      
 
       //cerita
       document.getElementById('storyLink').addEventListener('click', function(event) {
