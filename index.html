@@ -96,7 +96,7 @@
       <div class="container">
           <div class="row justify-content-center">
               <div class="col-md-9 col-10 text-center">
-                  <h2 class="kiri">Assalamualaikum Wr. Wb.</h2>
+                  <h2 class="atas2">Assalamualaikum Wr. Wb.</h2>
                   <br>
                   <p class="kanan kecil">Kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pengajian Rabu Malam Masjid Al-Fajri yang In Syaa Allah diselenggarakan pada:</p>
               </div>
@@ -175,7 +175,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <small class="d-block">&copy;2024 Masjid Al-Fajri, Kandangsapi, Surakarta</small>
+            <small class="d-block">&copy; 2024 Masjid Al-Fajri, Kandangsapi, Surakarta</small>
             
 
             <ul class="mt-3 d-block">
@@ -321,7 +321,7 @@
           event.preventDefault(); // Mencegah halaman melakukan reload
 
           // Menggulung halaman ke section dengan ID 'home'
-          document.getElementById('footer').scrollIntoView({
+          document.getElementById('akad').scrollIntoView({
               behavior: 'smooth'
           });
 
@@ -334,9 +334,41 @@
           }, 10000); // Durasi harus sama dengan durasi animasi di CSS
       });
 
-      
+      //home
+      document.getElementById('homeLinkA').addEventListener('click', function(event) {
+          event.preventDefault(); // Mencegah halaman melakukan reload
 
-      
+          // Menggulung halaman ke section dengan ID 'home'
+          document.getElementById('home').scrollIntoView({
+              behavior: 'smooth'
+          });
+
+          var homeElement = document.getElementById('home');
+          homeElement.classList.add('animate');
+
+          // Menghapus kelas animate setelah animasi selesai (opsional)
+          setTimeout(function() {
+              homeElement.classList.remove('animate');
+          }, 10000); // Durasi harus sama dengan durasi animasi di CSS
+      });
+
+      //akad
+      document.getElementById('akadLink').addEventListener('click', function(event) {
+          event.preventDefault(); // Mencegah halaman melakukan reload
+
+          // Menggulung halaman ke section dengan ID 'home'
+          document.getElementById('akad').scrollIntoView({
+              behavior: 'smooth'
+          });
+
+          var homeElement = document.getElementById('akad');
+          homeElement.classList.add('animateA');
+
+          // Menghapus kelas animate setelah animasi selesai (opsional)
+          setTimeout(function() {
+              homeElement.classList.remove('animateA');
+          }, 10000); // Durasi harus sama dengan durasi animasi di CSS
+      });
 
       //cerita
       document.getElementById('storyLink').addEventListener('click', function(event) {
