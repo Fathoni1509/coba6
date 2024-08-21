@@ -8,13 +8,13 @@
 
 body {
     max-width: 100%;
-    overflow: auto;
+    overflow-x: hidden;
 }
 
 body {
     font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
-    min-height: 100vh;
+    min-height: 100px;
 }
 
 .hero::before{
@@ -719,15 +719,11 @@ footer li{
        margin: 3px;
     }
 
-    .mynavbar{
-        height: 1rem;
-    }
-
 
 
     .info,
     .resepsi{
-        height: 93vh;
+        height: 100vh !important;
     }
 
     .info .atas2{
