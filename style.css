@@ -229,7 +229,7 @@ footer li{
 /* akad resepsi*/
 .info.animateA .bawah,
 .resepsi.animateB .bawah{
-    animation: bawah 2s;
+    animation: bawah 4s;
 }
 
 .info.animateA .kiri,
@@ -249,7 +249,7 @@ footer li{
 }
 
 .info.info.animateA .atas2{
-    animation: atas 3s;
+    animation: atas 4s;
 }
 
 /* cerita */
